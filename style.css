@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+.buttons {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.show-modal {
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.modal {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-top: 8rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
+.close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
