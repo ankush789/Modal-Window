@@ -13,6 +13,7 @@ body {
 .show-modal {
   font-size: 2rem;
   border-radius: 1.5rem;
+  outline: none;
   padding: 1rem;
   margin: 1rem;
 }
